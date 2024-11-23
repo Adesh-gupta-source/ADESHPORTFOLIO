@@ -1,0 +1,157 @@
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .skills h2 {
+      font-size: 1.8rem;
+  }
+
+  .skill-name {
+      font-size: 1rem;
+  }
+
+  .progress-bar-container {
+      width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills h2 {
+      font-size: 1.6rem;
+  }
+
+  .skill-name {
+      font-size: 0.9rem;
+  }
+
+  .progress-bar-container {
+      width: 55%;
+  }
+}
+
+@media (max-width: 490px) {
+  .skills h2 {
+      font-size: 1.4rem;
+  }
+
+  .skill-name {
+      font-size: 0.8rem;
+  }
+
+  .progress-bar-container {
+      width: 50%;
+  }
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .navi {
+        height: 8vh;
+    }
+
+    .rightnav {
+        font-size: 1.2rem;
+        margin-left: 5%;
+    }
+
+    .leftnav {
+        width: 60vw;
+    }
+
+    .parent {
+        width: 250px;
+        height: 270px;
+    }
+
+    .logo .circle1 {
+        width: 150px;
+    }
+
+    .logo .circle2 {
+        width: 120px;
+    }
+
+    .logo .circle3 {
+        width: 90px;
+    }
+
+    .logo .circle4 {
+        width: 60px;
+    }
+
+    .logo .circle5 {
+        width: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .rightnav {
+        font-size: 1.1rem;
+        margin-left: 3%;
+    }
+
+    .navi {
+        flex-direction: column;
+        height: 12vh;
+    }
+
+    .parent {
+        width: 220px;
+        height: 240px;
+    }
+
+    .logo .circle1 {
+        width: 130px;
+    }
+
+    .logo .circle2 {
+        width: 110px;
+    }
+
+    .logo .circle3 {
+        width: 80px;
+    }
+
+    .logo .circle4 {
+        width: 50px;
+    }
+
+    .logo .circle5 {
+        width: 30px;
+    }
+}
+
+@media (max-width: 490px) {
+    .rightnav {
+        font-size: 1rem;
+        margin-left: 0%;
+    }
+
+    .leftnav {
+        width: 100%;
+    }
+
+    .parent {
+        width: 180px;
+        height: 200px;
+    }
+
+    .logo .circle1 {
+        width: 110px;
+    }
+
+    .logo .circle2 {
+        width: 90px;
+    }
+
+    .logo .circle3 {
+        width: 70px;
+    }
+
+    .logo .circle4 {
+        width: 40px;
+    }
+
+    .logo .circle5 {
+        width: 20px;
+    }
+}
