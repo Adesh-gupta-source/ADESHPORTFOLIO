@@ -74,7 +74,7 @@ body {
     font-size: 2.3rem;
     border-radius: 20px;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     font-family: "Geist Mono", monospace;
     font-weight: 200;
     font-optical-sizing: auto;
@@ -84,7 +84,7 @@ body {
     background: linear-gradient(#474649, rgb(107, 37, 161));
     font-style: italic;
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
 }
 
 /* Card & Logo Styling */
@@ -128,7 +128,7 @@ body {
     z-index: -10;
     display: block;
 }
-
+ 
 .content .title {
     display: block;
     color: #00894d;
@@ -220,19 +220,20 @@ body {
 }
 
 .bottom .social-buttons-container .social-button:hover {
-    background: black;
+    background: rgb(124, 15, 197);
 }
 
-.bottom .social-buttons-container .social-button:hover .svg {
+.bottom .social-buttons-container .social-button:hover svg {
     fill: white;
+    cursor: pointer;
 }
 
 .bottom .social-buttons-container .social-button:active {
     background: rgb(255, 234, 0);
 }
 
-.bottom .social-buttons-container .social-button:active .svg {
-    fill: black;
+.bottom .social-buttons-container .social-button:active svg {
+    fill: rgb(0, 0, 0);
 }
 
 /* Logo Circles */
