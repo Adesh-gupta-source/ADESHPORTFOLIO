@@ -60,6 +60,7 @@
     .parent {
         width: 250px;
         height: 270px;
+        display: block !important;
     }
 
     .logo .circle1 {
@@ -114,9 +115,30 @@
     .logo .circle4 {
         width: 50px;
     }
-
+    .parent {
+        width: fit-content;
+        /* height:fit-content; */
+        display: block !important;
+        
+    }
     .logo .circle5 {
         width: 30px;
+    }
+    .skills{
+        margin-top: 50vh;
+    }
+    .info{
+        top: 59%;
+        left: 66% !important;
+        font-weight: 600;
+    }
+    .inboxin{
+        top: 53%;
+        left: 66%;
+    }
+    .shadow__btn{
+        top: 88%;
+        left: 60%;
     }
 }
 
@@ -129,10 +151,14 @@
     .leftnav {
         width: 100%;
     }
-
+    .container{
+        display: block;
+    }
     .parent {
-        width: 180px;
-        height: 200px;
+        width: fit-content;
+        /* height:fit-content; */
+        display: block !important;
+        
     }
 
     .logo .circle1 {
@@ -154,4 +180,14 @@
     .logo .circle5 {
         width: 20px;
     }
+    .shadow__btn{
+        top: 80%;
+        left: 4%;
+    }
 }
+@media (max-width: 1456px){
+    .shadow__btn{
+        top: 37%;
+        left: 60%;
+    }
+    }
